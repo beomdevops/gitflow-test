@@ -15,4 +15,10 @@ public class HelloController {
     public String getHellov1(){
         return "hellov2";
     }
+    @GetMapping("/v3")
+    public String getHellov3(){
+        return "hellov3";
+    }
+
+
 }
